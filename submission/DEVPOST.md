@@ -43,10 +43,10 @@ An optional layer cross-checks the claims against public data (great-circle geom
 
 - Hedera testnet topic of the recorded run: https://hashscan.io/testnet/topic/0.0.11078885
 - Hedera testnet token of the recorded run: https://hashscan.io/testnet/token/0.0.11078886
-- Live demo (recorded run, read-only): [DEMO URL]
+- Live demo (recorded run, read-only): https://climaudit.vercel.app
 - 265 backend tests and 55 web tests (including an automated accessibility audit) pass; the lifecycle is reproducible with `backend/scripts/demo_flow.py`.
 - Architecture diagram, specification, security and data-integrity assessment: see the repository (`submission/` and the root documents).
-- Repository: [REPOSITORY URL]
+- Repository: https://github.com/jacandelerocervantes-cmd/climaudit
 - Video: [VIDEO URL]
 
 ## Challenges

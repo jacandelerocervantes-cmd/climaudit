@@ -179,6 +179,7 @@ const SEGMENTS = {
 
   "04-report": async ({ page, context }) => {
     const id = await findBatch(context, "UNDER_REVIEW");
+    await context.addCookies([{ name: "cp_persona", value: "verifier", url: BASE }]); // the narration follows the verifier from the previous segment
     await page.goto(`${BASE}/batches/${id}?tab=report`);
     await wait(3500);
     await scrollBy(page, 300, 2400);
@@ -263,11 +264,16 @@ const SEGMENTS = {
     await wait(1200);
     const href = await page.locator('a[href*="hashscan.io"]').first().getAttribute("href");
     if (href) {
+      // Decline the explorer's cookies on a background page first, so the dialog never shows in the clip.
+      const warmup = await context.newPage();
+      await warmup.goto(href, { waitUntil: "domcontentloaded" });
+      await wait(3500);
+      const reject = warmup.getByRole("button", { name: "Reject" });
+      if (await reject.isVisible().catch(() => false)) await reject.click();
+      await wait(1000);
+      await warmup.close();
       await page.goto(href, { waitUntil: "domcontentloaded" });
-      await wait(4000);
-      const reject = page.getByRole("button", { name: "Reject" });
-      if (await reject.isVisible().catch(() => false)) await reject.click(); // decline the explorer's cookies
-      await wait(2500);
+      await wait(3500);
       const messages = page.getByText("Messages", { exact: true }).first();
       if (await messages.isVisible().catch(() => false)) await click(page, messages, 600);
       await wait(6000);

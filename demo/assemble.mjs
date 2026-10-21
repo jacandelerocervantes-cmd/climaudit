@@ -2,12 +2,12 @@
 //
 //   node assemble.mjs [--silent]
 //
-// Inputs:  out/clips/<NN-name>.webm (from record.mjs) and audio/<NN-name>.mp3|wav|m4a (the narration of narration/<NN-name>.txt,
-//          made with a text-to-speech service). With --silent a segment without audio keeps its clip length and has no sound.
+// Inputs:  out/clips/<NN-name>.webm (from record.mjs) and the narration audio, either one file per segment (audio/<NN-name>.mp3|wav|m4a,
+//          the text of narration/<NN-name>.txt) or one file for the whole video (audio/narration.mp3, nine paragraphs in the same order). With --silent a segment without audio keeps its clip length and has no sound.
 // Outputs: out/climaudit-demo.mp4 (H.264 + AAC, 1280x720) and out/climaudit-demo.srt.
 // Each segment is as long as its audio plus a short pause: a clip that is shorter is held on its last frame, a clip that is a
 // little longer is sped up, and a much longer one is cut. Needs ffmpeg and ffprobe on the PATH.
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SILENT = process.argv.includes("--silent");
 const OUT = join(HERE, "out");
-const PAUSE = 0.5; // seconds of quiet after each segment's narration
+const PAUSE = 1.2; // seconds of quiet after each segment's narration
 const MAX_SPEEDUP = 2.2;
 
 const run = (cmd, args) => execFileSync(cmd, args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
@@ -28,6 +28,39 @@ const fmt = (s) => {
 
 const names = readdirSync(join(HERE, "narration")).filter((f) => f.endsWith(".txt")).map((f) => f.replace(/\.txt$/, "")).sort();
 const parts = join(OUT, "parts");
+
+// One narration file for the whole video (audio/narration.mp3): cut it at the nine longest pauses, one per paragraph break, and check that
+// every piece lasts about what its word count predicts. The pieces are used as if each segment had its own audio file.
+const SPLIT = join(OUT, "audio-split");
+function splitSingleNarration() {
+  const single = ["mp3", "wav", "m4a", "ogg"].map((e) => join(HERE, "audio", `narration.${e}`)).find(existsSync);
+  if (!single) return;
+  mkdirSync(SPLIT, { recursive: true });
+  const total = duration(single);
+  const log = spawnSync("ffmpeg", ["-hide_banner", "-nostats", "-i", single, "-af", "silencedetect=noise=-35dB:d=0.45", "-f", "null", "-"], { encoding: "utf8" }).stderr; // ffmpeg reports on stderr
+  const gaps = [];
+  let start = null;
+  for (const line of log.split(/\r?\n/)) {
+    const s = line.match(/silence_start: ([\d.]+)/);
+    const e = line.match(/silence_end: ([\d.]+) \| silence_duration: ([\d.]+)/);
+    if (s) start = Number(s[1]);
+    if (e && start !== null) gaps.push({ at: (start + Number(e[1])) / 2, length: Number(e[2]) });
+  }
+  const cuts = gaps.sort((a, b) => b.length - a.length).slice(0, names.length - 1).map((g) => g.at).sort((a, b) => a - b);
+  if (cuts.length !== names.length - 1) throw new Error(`found ${cuts.length + 1} paragraphs in narration, expected ${names.length}; add a longer pause between paragraphs`);
+  const bounds = [0, ...cuts, total];
+  const words = names.map((n) => readFileSync(join(HERE, "narration", `${n}.txt`), "utf8").trim().split(/\s+/).length);
+  const sum = words.reduce((a, b) => a + b, 0);
+  names.forEach((name, i) => {
+    const from = bounds[i], to = bounds[i + 1];
+    const expected = (words[i] / sum) * total;
+    const ratio = (to - from) / expected;
+    if (ratio < 0.65 || ratio > 1.5) throw new Error(`paragraph ${i + 1} (${name}) lasts ${(to - from).toFixed(1)} s but about ${expected.toFixed(1)} s were expected; the cuts landed in the wrong pauses`);
+    run("ffmpeg", ["-v", "error", "-y", "-i", single, "-ss", from.toFixed(3), "-to", to.toFixed(3), "-ar", "44100", "-ac", "2", join(SPLIT, `${name}.wav`)]);
+  });
+  console.log(`narration split into ${names.length} paragraphs`);
+}
+splitSingleNarration();
 mkdirSync(parts, { recursive: true });
 
 let clock = 0;
@@ -37,7 +70,7 @@ const files = [];
 for (const name of names) {
   const clip = join(OUT, "clips", `${name}.webm`);
   if (!existsSync(clip)) throw new Error(`missing clip ${clip}; run record.mjs first`);
-  const audio = ["mp3", "wav", "m4a", "ogg"].map((e) => join(HERE, "audio", `${name}.${e}`)).find(existsSync);
+  const audio = [...["mp3", "wav", "m4a", "ogg"].map((e) => join(HERE, "audio", `${name}.${e}`)), join(SPLIT, `${name}.wav`)].find(existsSync);
   if (!audio && !SILENT) throw new Error(`missing audio for ${name} (audio/${name}.mp3); add it or use --silent`);
   const tv = duration(clip);
   const ta = audio ? duration(audio) : tv;
