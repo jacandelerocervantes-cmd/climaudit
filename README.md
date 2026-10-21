@@ -4,6 +4,9 @@ Evidence checking for biochar carbon credits, with a public audit trail on Heder
 
 Built for the IEEE ClimateChain Global Hackathon 2026, track **Carbon Markets & Emissions Transparency**.
 
+**Demo video (3 min):** https://www.youtube.com/watch?v=tOxZyXXK4ro  
+**Live demo (recorded run, read-only):** https://climaudit.vercel.app
+
 ClimAudit checks the evidence of a biochar batch against Verra methodology **VM0044 v1.2** and computes the carbon dioxide removed as a conservative range. Deterministic code does every calculation. An optional AI assistant can only propose values with a verbatim quote, and a person confirms them. A human verifier decides; the registry issues the credits as a Hedera token. Each step is a hash-chained audit event, and the hashes (never the evidence) are published on a Hedera topic, so anyone can check the chain against the public ledger.
 
 All data in this repository is synthetic and the network is the Hedera **test network**. No credit here is real.

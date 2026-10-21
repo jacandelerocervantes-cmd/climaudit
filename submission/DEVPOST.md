@@ -47,7 +47,7 @@ An optional layer cross-checks the claims against public data (great-circle geom
 - 265 backend tests and 55 web tests (including an automated accessibility audit) pass; the lifecycle is reproducible with `backend/scripts/demo_flow.py`.
 - Architecture diagram, specification, security and data-integrity assessment: see the repository (`submission/` and the root documents).
 - Repository: https://github.com/jacandelerocervantes-cmd/climaudit
-- Video: [VIDEO URL]
+- Video: https://www.youtube.com/watch?v=tOxZyXXK4ro
 
 ## Challenges
 
