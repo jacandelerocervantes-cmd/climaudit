@@ -1,0 +1,11 @@
+{
+  "case": "hcorg_0.69",
+  "findings_exclude": [
+    "H_CORG_ABOVE_LIMIT",
+    "METHODOLOGY_TEXT_AMBIGUOUS"
+  ],
+  "findings_include": [],
+  "kg_central": 261067,
+  "recommendation": "human_review",
+  "status": "complete"
+}

@@ -1,0 +1,6331 @@
+{
+  "batch": {
+    "application_type": "soil",
+    "batch_id": "b-001",
+    "biochar_type": "agricultural_residue",
+    "cell_set": [
+      "89280a72e07ffff",
+      "89280a72e0bffff"
+    ],
+    "claimed_kg_co2e": 300000,
+    "created_at": "",
+    "facility_id": "fac-1",
+    "parcel_key": "PARCEL-A",
+    "period_end": "2026-03-02",
+    "period_start": "2026-03-01",
+    "profile_id": "VM0044@1.2",
+    "project_id": "prj-1",
+    "state": "UNDER_REVIEW",
+    "updated_at": "",
+    "year": 2026
+  },
+  "case": "benford_natural_series",
+  "description": "600 log-uniform batch weights that follow Benford's law",
+  "documents": [],
+  "evidence": [
+    {
+      "confirmation": "confirmed",
+      "document_ref": "lab-1",
+      "item_id": "it-1",
+      "kind": "dry_mass_biochar",
+      "provenance": "synthetic",
+      "rel_uncertainty": "0.02",
+      "source": "owner",
+      "unit": "t",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "document_ref": "lab-1",
+      "item_id": "it-2",
+      "kind": "organic_carbon_fraction",
+      "provenance": "synthetic",
+      "rel_uncertainty": "0.02",
+      "source": "owner",
+      "unit": "percent",
+      "value": "80"
+    },
+    {
+      "confirmation": "confirmed",
+      "document_ref": "lab-1",
+      "item_id": "it-3",
+      "kind": "h_corg_molar",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "ratio",
+      "value": "0.2"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-4",
+      "kind": "pyrolysis_temp_c",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "celsius",
+      "value": "650"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-5",
+      "kind": "feedstock_category",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "agricultural_residue"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-6",
+      "kind": "feedstock_origin_country",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "MX"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-7",
+      "kind": "feedstock_fate_evidence",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "doc-fate-1"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "lot-1",
+      "item_id": "it-8",
+      "kind": "production_date",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "2026-02-01"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "lot-1",
+      "item_id": "it-9",
+      "kind": "application_date",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "2026-03-01"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-10",
+      "kind": "transport_declaration",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "legs_provided"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-11",
+      "kind": "land_type",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "cropland"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-12",
+      "kind": "application_method",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "subsurface"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-13",
+      "kind": "lab_report",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "lab-1"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-14",
+      "kind": "lab_accredited",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "true"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-15",
+      "kind": "health_safety_program",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "doc-hs-1"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-16",
+      "kind": "transport_leg_kind",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "biomass"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-17",
+      "kind": "transport_mode",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "road"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-18",
+      "kind": "transport_distance_km_return",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "km",
+      "value": "150"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-19",
+      "kind": "transport_freight_t",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "120"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-20",
+      "kind": "vehicle_class",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "heavy"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-21",
+      "kind": "transport_leg_kind",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "biochar"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-22",
+      "kind": "transport_mode",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "road"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-23",
+      "kind": "transport_distance_km_return",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "km",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-24",
+      "kind": "transport_freight_t",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-25",
+      "kind": "vehicle_class",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "heavy"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-31",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1315.307"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-32",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "268.547"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-33",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "415.785"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-34",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "288.788"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-35",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5000.067"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-36",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "18.376"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-37",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.287"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-38",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "70.905"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-39",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8249.896"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-40",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3262.968"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-41",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "556.998"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-42",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2787.424"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-43",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "531.636"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-44",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4953.682"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-45",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "35.991"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-46",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6141.218"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-47",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "26.624"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-48",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "874.073"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-49",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "55.843"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-50",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.244"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-51",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "604.23"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-52",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "14.395"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-53",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6809.84"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-54",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1582.605"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-55",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.085"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-56",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1179.162"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-57",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "18.859"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-58",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4091.117"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-59",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "147.444"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-60",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "23.439"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-61",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "175.167"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-62",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "770.394"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-63",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.821"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-64",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "299.145"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-65",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.973"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-66",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.182"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-67",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "26.071"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-68",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "390.458"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-69",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "419.952"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-70",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.304"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-71",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "205.357"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-72",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "26.539"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-73",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "34.389"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-74",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9.062"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-75",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "48.299"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-76",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.555"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-77",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.168"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-78",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "148.494"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-79",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "442.844"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-80",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5478.502"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-81",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "543.261"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-82",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "38.675"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-83",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.469"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-84",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.897"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-85",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.24"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-86",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "12.803"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-87",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "82.295"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-88",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.357"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-89",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "18.154"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-90",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5982.895"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-91",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "236.92"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-92",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2281.462"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-93",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "162.903"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-94",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "398.89"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-95",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7002.0"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-96",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "113.812"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-97",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.505"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-98",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "340.429"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-99",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1042.624"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-100",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "18.621"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-101",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "428.027"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-102",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.111"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-103",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8175.506"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-104",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "76.24"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-105",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7599.315"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-106",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "520.682"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-107",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2808.203"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-108",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5115.858"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-109",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4209.017"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-110",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "39.473"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-111",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8029.43"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-112",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6367.95"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-113",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8.512"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-114",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2071.138"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-115",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "23.7"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-116",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6.367"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-117",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "27.317"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-118",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "353.22"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-119",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "156.741"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-120",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "78.75"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-121",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1427.302"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-122",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "210.048"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-123",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.644"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-124",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "325.137"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-125",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.122"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-126",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3760.025"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-127",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6335.336"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-128",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1798.939"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-129",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2188.972"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-130",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "644.754"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-131",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1518.677"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-132",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "360.135"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-133",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.172"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-134",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "30.987"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-135",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "839.524"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-136",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.563"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-137",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "907.988"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-138",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9891.114"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-139",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.184"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-140",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.387"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-141",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2482.258"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-142",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "213.576"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-143",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "195.217"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-144",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6640.044"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-145",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "33.291"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-146",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7121.528"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-147",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "116.516"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-148",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "376.866"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-149",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.287"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-150",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "108.404"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-151",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.199"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-152",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "851.733"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-153",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "21.599"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-154",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.112"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-155",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.467"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-156",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "234.902"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-157",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1409.209"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-158",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.455"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-159",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "14.847"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-160",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "146.104"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-161",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "26.847"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-162",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7780.659"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-163",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.686"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-164",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "972.771"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-165",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.091"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-166",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "265.341"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-167",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "83.186"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-168",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "49.047"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-169",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1772.202"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-170",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4059.84"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-171",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8243.121"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-172",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9710.482"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-173",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.825"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-174",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "116.081"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-175",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.23"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-176",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "143.346"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-177",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.526"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-178",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3538.097"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-179",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "114.807"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-180",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3382.96"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-181",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "374.645"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-182",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.019"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-183",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "31.494"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-184",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "29.647"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-185",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.324"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-186",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.139"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-187",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "275.47"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-188",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.207"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-189",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8712.301"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-190",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "86.748"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-191",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3132.633"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-192",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "806.3"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-193",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "33.481"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-194",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "293.642"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-195",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "389.208"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-196",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "24.615"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-197",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4345.082"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-198",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.046"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-199",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "119.065"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-200",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2063.349"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-201",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "542.171"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-202",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "66.64"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-203",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "219.412"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-204",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.139"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-205",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1306.726"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-206",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.246"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-207",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "95.335"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-208",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "17.705"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-209",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1030.787"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-210",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8.02"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-211",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "19.953"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-212",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "105.947"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-213",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "21.225"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-214",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4250.326"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-215",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "785.949"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-216",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2685.378"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-217",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "40.952"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-218",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.093"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-219",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1680.78"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-220",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.598"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-221",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "571.011"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-222",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "24.785"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-223",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1408.432"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-224",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "43.531"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-225",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1632.898"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-226",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "33.613"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-227",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.145"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-228",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "937.816"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-229",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "423.999"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-230",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.238"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-231",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.763"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-232",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2200.819"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-233",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "19.061"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-234",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2315.903"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-235",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "59.951"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-236",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.815"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-237",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "321.742"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-238",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8.653"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-239",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7744.585"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-240",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "175.873"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-241",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.111"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-242",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "14.924"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-243",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "67.96"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-244",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "40.27"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-245",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.221"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-246",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "734.259"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-247",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "497.127"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-248",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "22.251"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-249",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "520.835"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-250",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4915.598"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-251",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4306.923"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-252",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2451.463"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-253",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6470.093"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-254",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "468.288"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-255",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "153.336"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-256",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6.913"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-257",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "25.624"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-258",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "20.979"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-259",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4915.45"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-260",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "790.213"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-261",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.102"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-262",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "172.062"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-263",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.202"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-264",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "21.68"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-265",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "377.978"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-266",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "45.55"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-267",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1296.598"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-268",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "80.126"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-269",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3603.621"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-270",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "22.646"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-271",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.412"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-272",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.577"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-273",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.043"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-274",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2556.049"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-275",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.873"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-276",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.178"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-277",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6.869"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-278",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "67.382"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-279",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "12.813"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-280",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "331.65"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-281",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.07"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-282",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "588.485"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-283",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "143.168"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-284",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.111"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-285",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.412"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-286",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "20.89"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-287",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.544"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-288",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "71.426"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-289",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "265.661"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-290",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.821"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-291",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "17.29"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-292",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "186.424"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-293",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "703.584"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-294",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "530.348"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-295",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "172.437"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-296",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.705"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-297",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "12.12"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-298",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "47.659"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-299",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.508"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-300",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "864.973"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-301",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8995.047"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-302",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8986.614"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-303",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4383.732"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-304",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "428.095"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-305",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "23.177"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-306",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "24.527"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-307",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "266.947"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-308",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.505"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-309",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3412.254"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-310",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2269.044"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-311",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.402"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-312",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "91.205"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-313",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.222"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-314",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1721.093"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-315",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.361"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-316",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1046.77"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-317",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6.236"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-318",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "12.432"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-319",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2338.775"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-320",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "39.784"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-321",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.468"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-322",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.647"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-323",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "43.998"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-324",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.812"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-325",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "773.135"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-326",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "441.203"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-327",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "534.843"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-328",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1157.151"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-329",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "15.647"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-330",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "85.19"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-331",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.306"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-332",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "109.279"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-333",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "122.962"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-334",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "19.971"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-335",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "18.696"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-336",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "22.826"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-337",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.304"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-338",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9024.541"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-339",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2844.449"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-340",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.982"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-341",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.714"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-342",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6164.404"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-343",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3062.868"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-344",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "120.828"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-345",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "33.987"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-346",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.664"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-347",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "273.792"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-348",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.234"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-349",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "71.654"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-350",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6.897"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-351",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "107.681"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-352",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "127.734"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-353",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "113.429"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-354",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1467.999"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-355",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "12.098"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-356",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3127.743"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-357",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "90.019"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-358",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "172.008"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-359",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2303.228"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-360",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "20.093"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-361",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9744.651"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-362",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "36.984"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-363",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "289.033"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-364",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "143.343"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-365",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.055"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-366",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "160.411"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-367",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8298.537"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-368",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "822.183"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-369",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.35"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-370",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1834.652"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-371",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "424.549"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-372",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.755"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-373",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "464.06"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-374",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.374"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-375",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1438.947"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-376",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5806.181"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-377",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.199"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-378",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.755"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-379",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "144.97"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-380",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "26.706"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-381",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "67.48"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-382",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.576"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-383",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.639"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-384",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.528"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-385",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.127"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-386",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "367.198"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-387",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "90.985"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-388",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "152.856"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-389",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.306"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-390",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.651"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-391",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "28.617"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-392",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "148.246"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-393",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "72.872"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-394",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "974.068"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-395",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.169"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-396",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "19.862"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-397",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "723.216"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-398",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.449"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-399",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.072"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-400",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.391"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-401",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "220.821"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-402",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "658.52"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-403",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1794.006"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-404",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.688"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-405",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1064.213"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-406",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.521"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-407",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.825"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-408",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1844.241"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-409",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "49.132"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-410",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "54.017"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-411",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2149.91"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-412",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.816"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-413",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.918"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-414",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7442.318"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-415",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.093"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-416",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.306"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-417",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9277.995"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-418",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "48.741"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-419",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "49.284"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-420",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2658.711"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-421",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "660.951"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-422",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7476.908"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-423",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "329.143"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-424",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "57.797"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-425",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6190.361"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-426",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "266.953"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-427",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.328"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-428",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3870.219"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-429",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "904.088"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-430",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.907"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-431",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.067"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-432",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "723.146"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-433",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "308.135"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-434",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.288"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-435",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.881"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-436",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "366.793"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-437",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.717"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-438",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6194.579"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-439",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8553.657"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-440",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.324"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-441",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7655.524"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-442",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "391.535"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-443",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4515.231"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-444",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1438.146"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-445",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "14.076"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-446",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "28.901"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-447",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.092"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-448",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "121.358"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-449",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3523.279"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-450",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2300.781"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-451",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "89.678"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-452",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.563"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-453",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1490.48"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-454",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "173.216"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-455",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7562.849"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-456",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "66.691"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-457",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "271.747"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-458",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "235.587"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-459",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5283.436"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-460",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "478.724"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-461",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "20.184"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-462",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.457"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-463",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "534.708"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-464",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "69.816"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-465",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "24.197"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-466",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2012.847"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-467",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "126.354"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-468",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "132.204"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-469",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.473"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-470",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "12.719"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-471",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.409"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-472",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "229.527"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-473",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.91"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-474",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4900.559"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-475",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "180.93"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-476",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "35.07"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-477",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "381.836"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-478",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "199.483"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-479",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "67.275"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-480",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "82.134"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-481",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.224"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-482",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3914.706"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-483",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.446"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-484",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.634"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-485",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.33"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-486",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "137.743"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-487",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "10.466"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-488",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7717.44"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-489",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "990.2"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-490",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.925"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-491",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "255.758"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-492",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.011"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-493",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7170.209"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-494",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4171.829"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-495",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "739.515"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-496",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "16.91"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-497",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "76.405"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-498",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "19.454"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-499",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3860.177"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-500",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "577.856"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-501",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "39.825"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-502",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "113.854"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-503",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2475.953"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-504",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "47.366"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-505",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "90.327"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-506",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "241.409"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-507",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "56.766"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-508",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1188.914"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-509",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "225.68"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-510",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "230.254"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-511",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "85.378"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-512",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.163"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-513",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6049.952"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-514",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "34.585"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-515",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.368"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-516",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "72.725"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-517",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.64"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-518",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9.208"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-519",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "121.73"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-520",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.728"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-521",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "53.314"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-522",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "873.081"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-523",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.274"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-524",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "256.366"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-525",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "120.235"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-526",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6497.116"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-527",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.081"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-528",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "29.782"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-529",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.366"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-530",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.013"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-531",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.789"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-532",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "41.841"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-533",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.781"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-534",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.646"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-535",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9115.072"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-536",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "40.148"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-537",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.055"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-538",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6.117"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-539",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "11.239"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-540",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1590.762"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-541",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "125.57"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-542",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4453.262"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-543",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.179"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-544",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.683"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-545",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4426.193"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-546",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7.485"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-547",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2336.822"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-548",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1630.404"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-549",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "177.569"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-550",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3958.824"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-551",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "158.051"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-552",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.388"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-553",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6913.104"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-554",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8228.467"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-555",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "596.29"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-556",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2309.849"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-557",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "115.333"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-558",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5443.952"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-559",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "6727.951"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-560",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4059.694"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-561",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7406.972"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-562",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "399.697"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-563",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7657.558"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-564",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.542"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-565",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.314"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-566",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "405.016"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-567",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "13.076"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-568",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.07"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-569",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "295.793"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-570",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.494"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-571",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5002.297"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-572",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.929"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-573",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "635.06"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-574",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "153.502"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-575",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "154.816"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-576",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "116.62"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-577",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "144.832"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-578",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "95.734"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-579",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.633"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-580",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "25.589"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-581",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "140.294"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-582",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "71.795"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-583",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9.314"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-584",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.15"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-585",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "34.942"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-586",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.278"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-587",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "500.58"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-588",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5.175"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-589",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8.862"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-590",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "172.463"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-591",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "104.566"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-592",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "22.303"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-593",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "13.053"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-594",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "384.205"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-595",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "4.739"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-596",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.342"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-597",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "23.841"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-598",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "980.212"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-599",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "3.32"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-600",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "5768.864"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-601",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2822.915"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-602",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1305.689"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-603",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1954.626"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-604",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "78.966"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-605",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "593.952"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-606",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "558.27"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-607",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "19.479"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-608",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "95.48"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-609",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "2.894"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-610",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "1.014"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-611",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "32.974"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-612",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7297.797"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-613",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "98.192"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-614",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "47.263"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-615",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "184.936"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-616",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "112.007"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-617",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "26.537"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-618",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "933.963"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-619",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "231.762"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-620",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "399.157"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-621",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "8.953"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-622",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "32.282"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-623",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "9.529"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-624",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "16.404"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-625",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "503.324"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-626",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "525.54"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-627",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "184.387"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-628",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "16.885"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-629",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "133.353"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "log-1",
+      "item_id": "it-630",
+      "kind": "log_series_value",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "7758.078"
+    }
+  ],
+  "facility": {
+    "country": "MX",
+    "declared_class": "high",
+    "facility_id": "fac-1",
+    "heat_use_pct": "80",
+    "is_greenfield": true,
+    "pollution_controls": true,
+    "process": "pyrolysis",
+    "project_id": "prj-1",
+    "pyrolysis_gas_combusted": true,
+    "temperature_measured": true
+  },
+  "facility_year": [
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-26",
+      "kind": "facility_total_dry_mass",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-27",
+      "kind": "pe_pretreat_electricity_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-28",
+      "kind": "pe_pretreat_fuel_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-29",
+      "kind": "pe_auxiliary_electricity_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-30",
+      "kind": "pe_auxiliary_fuel_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    }
+  ],
+  "profile_id": "VM0044@1.2",
+  "project_country": "MX",
+  "provenance": "synthetic"
+}

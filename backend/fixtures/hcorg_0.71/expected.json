@@ -1,0 +1,10 @@
+{
+  "case": "hcorg_0.71",
+  "findings_exclude": [],
+  "findings_include": [
+    "H_CORG_ABOVE_LIMIT"
+  ],
+  "kg_central": null,
+  "recommendation": "reject",
+  "status": "incomplete"
+}

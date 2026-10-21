@@ -1,0 +1,12 @@
+{
+  "case": "hidden_text_injection",
+  "findings_exclude": [],
+  "findings_include": [
+    "HIDDEN_TEXT_IN_DOCUMENT",
+    "INSTRUCTION_IN_DOCUMENT",
+    "H_CORG_ABOVE_LIMIT"
+  ],
+  "kg_central": null,
+  "recommendation": "reject",
+  "status": "incomplete"
+}

@@ -1,0 +1,12 @@
+{
+  "case": "happy_high_tech",
+  "findings_exclude": [
+    "H_CORG_ABOVE_LIMIT"
+  ],
+  "findings_include": [
+    "PROVENANCE_SYNTHETIC"
+  ],
+  "kg_central": 261067,
+  "recommendation": "human_review",
+  "status": "complete"
+}

@@ -1,0 +1,68 @@
+{
+  "profile_id": "WOOLF2021@alt",
+  "methodology_id": "WOOLF2021",
+  "version": "alt",
+  "horizon_years": 100,
+  "label": "ALTERNATIVE permanence model (Woolf et al. 2021 H/Corg regression) - not VM0044",
+  "source": {
+    "document": "Woolf et al. 2021, Environ. Sci. Technol. 55(21):14795-14805, Table 3 (PMC8567415)",
+    "retrieved": "2026-10-16",
+    "note": "Read through a web extraction; re-check against the PDF before relying on it."
+  },
+  "permanence": {
+    "mode": "hcorg_linear",
+    "cap_at_one": true,
+    "cap_note": "The paper states no cap; capping F_perm at 1 is this project's choice.",
+    "rows": [
+      {
+        "horizon_years": 100,
+        "soil_temp_c": "10",
+        "c": "1.10",
+        "m": "-0.59",
+        "r2": "0.33",
+        "verified": true
+      },
+      {
+        "horizon_years": 100,
+        "soil_temp_c": "14.9",
+        "c": "1.04",
+        "m": "-0.64",
+        "r2": "0.32",
+        "verified": true
+      },
+      {
+        "horizon_years": 100,
+        "soil_temp_c": "25",
+        "c": "0.98",
+        "m": "-0.66",
+        "r2": "0.30",
+        "verified": true
+      },
+      {
+        "horizon_years": 500,
+        "soil_temp_c": "14.9",
+        "c": "0.57",
+        "m": "-0.50",
+        "r2": "0.17",
+        "verified": true
+      },
+      {
+        "horizon_years": 1000,
+        "soil_temp_c": "14.9",
+        "c": "0.30",
+        "m": "-0.28",
+        "r2": "0.07",
+        "verified": true
+      }
+    ]
+  },
+  "uncertainty": {
+    "modeled_relative_uncertainty": {
+      "value": "0.10",
+      "verified": false,
+      "note": "Demo parameter of this project."
+    }
+  },
+  "extends": "VM0044@1.2",
+  "alternative": true
+}

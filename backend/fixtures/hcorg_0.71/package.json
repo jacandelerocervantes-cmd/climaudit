@@ -1,0 +1,331 @@
+{
+  "batch": {
+    "application_type": "soil",
+    "batch_id": "b-001",
+    "biochar_type": "agricultural_residue",
+    "cell_set": [
+      "89280a72e07ffff",
+      "89280a72e0bffff"
+    ],
+    "claimed_kg_co2e": 300000,
+    "created_at": "",
+    "facility_id": "fac-1",
+    "parcel_key": "PARCEL-A",
+    "period_end": "2026-03-02",
+    "period_start": "2026-03-01",
+    "profile_id": "VM0044@1.2",
+    "project_id": "prj-1",
+    "state": "UNDER_REVIEW",
+    "updated_at": "",
+    "year": 2026
+  },
+  "case": "hcorg_0.71",
+  "description": "H:Corg 0.71 against the VM0044 limit (<= 0.7)",
+  "documents": [],
+  "evidence": [
+    {
+      "confirmation": "confirmed",
+      "document_ref": "lab-1",
+      "item_id": "it-1",
+      "kind": "dry_mass_biochar",
+      "provenance": "synthetic",
+      "rel_uncertainty": "0.02",
+      "source": "owner",
+      "unit": "t",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "document_ref": "lab-1",
+      "item_id": "it-2",
+      "kind": "organic_carbon_fraction",
+      "provenance": "synthetic",
+      "rel_uncertainty": "0.02",
+      "source": "owner",
+      "unit": "percent",
+      "value": "80"
+    },
+    {
+      "confirmation": "confirmed",
+      "document_ref": "lab-1",
+      "item_id": "it-3",
+      "kind": "h_corg_molar",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "ratio",
+      "value": "0.71"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-4",
+      "kind": "pyrolysis_temp_c",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "celsius",
+      "value": "650"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-5",
+      "kind": "feedstock_category",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "agricultural_residue"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-6",
+      "kind": "feedstock_origin_country",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "MX"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-7",
+      "kind": "feedstock_fate_evidence",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "doc-fate-1"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "lot-1",
+      "item_id": "it-8",
+      "kind": "production_date",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "2026-02-01"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "lot-1",
+      "item_id": "it-9",
+      "kind": "application_date",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "2026-03-01"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-10",
+      "kind": "transport_declaration",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "legs_provided"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-11",
+      "kind": "land_type",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "cropland"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-12",
+      "kind": "application_method",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "subsurface"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-13",
+      "kind": "lab_report",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "lab-1"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-14",
+      "kind": "lab_accredited",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "true"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-15",
+      "kind": "health_safety_program",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "doc-hs-1"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-16",
+      "kind": "transport_leg_kind",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "biomass"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-17",
+      "kind": "transport_mode",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "road"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-18",
+      "kind": "transport_distance_km_return",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "km",
+      "value": "150"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-19",
+      "kind": "transport_freight_t",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "120"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-1",
+      "item_id": "it-20",
+      "kind": "vehicle_class",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "heavy"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-21",
+      "kind": "transport_leg_kind",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "biochar"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-22",
+      "kind": "transport_mode",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "road"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-23",
+      "kind": "transport_distance_km_return",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "km",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-24",
+      "kind": "transport_freight_t",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "group": "leg-2",
+      "item_id": "it-25",
+      "kind": "vehicle_class",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "",
+      "value": "heavy"
+    }
+  ],
+  "facility": {
+    "country": "MX",
+    "declared_class": "high",
+    "facility_id": "fac-1",
+    "heat_use_pct": "80",
+    "is_greenfield": true,
+    "pollution_controls": true,
+    "process": "pyrolysis",
+    "project_id": "prj-1",
+    "pyrolysis_gas_combusted": true,
+    "temperature_measured": true
+  },
+  "facility_year": [
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-26",
+      "kind": "facility_total_dry_mass",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "t",
+      "value": "100"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-27",
+      "kind": "pe_pretreat_electricity_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-28",
+      "kind": "pe_pretreat_fuel_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-29",
+      "kind": "pe_auxiliary_electricity_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    },
+    {
+      "confirmation": "confirmed",
+      "item_id": "it-30",
+      "kind": "pe_auxiliary_fuel_tco2e",
+      "provenance": "synthetic",
+      "source": "owner",
+      "unit": "tco2e",
+      "value": "0"
+    }
+  ],
+  "profile_id": "VM0044@1.2",
+  "project_country": "MX",
+  "provenance": "synthetic"
+}

@@ -1,0 +1,1 @@
+All data is synthetic and the network is a test network. The point: deterministic checking, a human decision, and a record you can verify yourself.

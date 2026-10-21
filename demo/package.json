@@ -1,0 +1,14 @@
+{
+  "name": "climaudit-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Records the demo video clips of the ClimAudit web app and assembles them with the narration audio",
+  "type": "module",
+  "scripts": {
+    "record": "node record.mjs",
+    "assemble": "node assemble.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.61.0"
+  }
+}

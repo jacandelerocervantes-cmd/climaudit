@@ -1,0 +1,10 @@
+{
+  "case": "gwp_without_document",
+  "findings_exclude": [],
+  "findings_include": [
+    "EVIDENCE_MISSING"
+  ],
+  "kg_central": null,
+  "recommendation": "return",
+  "status": "incomplete"
+}

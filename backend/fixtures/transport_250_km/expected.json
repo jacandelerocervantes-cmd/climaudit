@@ -1,0 +1,10 @@
+{
+  "case": "transport_250_km",
+  "findings_exclude": [
+    "TRANSPORT_DISTANCE_AT_THRESHOLD"
+  ],
+  "findings_include": [],
+  "kg_central": 257197,
+  "recommendation": "human_review",
+  "status": "complete"
+}

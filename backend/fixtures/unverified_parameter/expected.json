@@ -1,0 +1,10 @@
+{
+  "case": "unverified_parameter",
+  "findings_exclude": [],
+  "findings_include": [
+    "METHODOLOGY_PARAMETER_UNVERIFIED"
+  ],
+  "kg_central": 261067,
+  "recommendation": "human_review",
+  "status": "complete"
+}

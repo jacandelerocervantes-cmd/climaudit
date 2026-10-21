@@ -1,0 +1,10 @@
+{
+  "case": "wet_as_dry",
+  "findings_exclude": [],
+  "findings_include": [
+    "MOISTURE_NOT_DEDUCTED"
+  ],
+  "kg_central": null,
+  "recommendation": "return",
+  "status": "incomplete"
+}

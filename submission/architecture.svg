@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 800" width="1240" height="800" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">ClimAudit architecture</title>
+<desc id="d">Roles call the ClimAudit API. Evidence passes a sanitizer, a gated extractor, rule checks and a deterministic VM0044 calculation. A human verifier decides. Issuance goes through a ledger port to Hedera directly or through Guardian. Public data adds advisory findings.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#475569"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f766e"/></marker>
+</defs>
+<rect width="1240" height="800" fill="#ffffff"/>
+<text x="30" y="40" font-size="22" font-weight="700" fill="#0f172a">ClimAudit: verification of biochar carbon-credit evidence (Verra VM0044 v1.2) on Hedera</text>
+<text x="30" y="62" font-size="12" font-weight="400" fill="#334155">Green = deterministic code. Orange dashed = optional AI, read-only. Yellow = human decision. Blue = ledger. Purple dashed = advisory public data. All demo data is synthetic.</text>
+<rect x="30" y="100" width="170" height="410" rx="8" ry="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="45" y="125" font-size="15" font-weight="600" fill="#0f172a">Roles (API keys)</text>
+<text x="45" y="155" font-size="12" font-weight="400" fill="#334155">Project owner</text>
+<text x="45" y="173" font-size="11" font-weight="400" fill="#475569">submits evidence</text>
+<text x="45" y="210" font-size="12" font-weight="400" fill="#334155">Verifier</text>
+<text x="45" y="228" font-size="11" font-weight="400" fill="#475569">runs verification, decides</text>
+<text x="45" y="265" font-size="12" font-weight="400" fill="#334155">Registry</text>
+<text x="45" y="283" font-size="11" font-weight="400" fill="#475569">issues credits</text>
+<text x="45" y="320" font-size="12" font-weight="400" fill="#334155">Holder</text>
+<text x="45" y="338" font-size="11" font-weight="400" fill="#475569">transfers, retires</text>
+<text x="45" y="375" font-size="12" font-weight="400" fill="#334155">Auditor / admin</text>
+<text x="45" y="393" font-size="11" font-weight="400" fill="#475569">verifies the audit chain</text>
+<text x="45" y="440" font-size="11" font-weight="400" fill="#475569">Role checks are enforced</text>
+<text x="45" y="456" font-size="11" font-weight="400" fill="#475569">in code, on every route.</text>
+<rect x="250" y="100" width="560" height="560" rx="8" ry="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="268" y="125" font-size="15" font-weight="600" fill="#0f172a">ClimAudit API (Python, FastAPI) and verification pipeline</text>
+<rect x="270" y="145" width="240" height="62" rx="8" ry="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="1.6"/>
+<text x="284" y="168" font-size="15" font-weight="600" fill="#0f172a">1. Intake and sanitizer</text>
+<text x="284" y="187" font-size="12" font-weight="400" fill="#334155">Hidden, tiny or off-page PDF text,</text>
+<text x="284" y="201" font-size="12" font-weight="400" fill="#334155">instruction patterns, SHA-256 of files</text>
+<rect x="540" y="145" width="250" height="62" rx="8" ry="8" fill="#fff7ed" stroke="#c2410c" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="554" y="168" font-size="15" font-weight="600" fill="#0f172a">2. Extraction agent (optional)</text>
+<text x="554" y="187" font-size="12" font-weight="400" fill="#334155">Claude, read-only, no ledger keys:</text>
+<text x="554" y="201" font-size="12" font-weight="400" fill="#334155">proposes values with a verbatim quote</text>
+<rect x="270" y="230" width="240" height="70" rx="8" ry="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="1.6"/>
+<text x="284" y="253" font-size="15" font-weight="600" fill="#0f172a">4. Rules and guards</text>
+<text x="284" y="272" font-size="12" font-weight="400" fill="#334155">Mass balance, H:Corg limit, one-year rule,</text>
+<text x="284" y="286" font-size="12" font-weight="400" fill="#334155">double-counting guard (key + H3 overlap)</text>
+<rect x="540" y="230" width="250" height="70" rx="8" ry="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="1.6"/>
+<text x="554" y="253" font-size="15" font-weight="600" fill="#0f172a">3. Extraction gate</text>
+<text x="554" y="272" font-size="12" font-weight="400" fill="#334155">Quote must appear verbatim, value as a</text>
+<text x="554" y="286" font-size="12" font-weight="400" fill="#334155">whole token; a person confirms each one</text>
+<rect x="270" y="325" width="520" height="92" rx="8" ry="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="1.6"/>
+<text x="284" y="348" font-size="15" font-weight="600" fill="#0f172a">5. Deterministic calculation (Decimal, no floats)</text>
+<text x="284" y="368" font-size="12" font-weight="400" fill="#334155">VM0044 Eq. 1 to 15 from a data-file profile: Table 3 permanence defaults, TOOL03/05/12 factors,</text>
+<text x="284" y="384" font-size="12" font-weight="400" fill="#334155">each with source and version. Uncertainty = min and max over adverse and favorable corners;</text>
+<text x="284" y="400" font-size="12" font-weight="400" fill="#334155">issuable = lower bound, never above the claim. Report numbers must match computed figures.</text>
+<rect x="270" y="442" width="240" height="100" rx="8" ry="8" fill="#faf5ff" stroke="#7e22ce" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="284" y="465" font-size="15" font-weight="600" fill="#0f172a">Advisory public-data checks</text>
+<text x="284" y="484" font-size="12" font-weight="400" fill="#334155">Distance geometry, Open-Meteo weather,</text>
+<text x="284" y="498" font-size="12" font-weight="400" fill="#334155">ESA WorldCover land cover, Berkeley</text>
+<text x="284" y="512" font-size="12" font-weight="400" fill="#334155">registry index. Advisory only.</text>
+<rect x="540" y="442" width="250" height="100" rx="8" ry="8" fill="#fefce8" stroke="#a16207" stroke-width="2.0"/>
+<text x="554" y="465" font-size="15" font-weight="600" fill="#0f172a">6. Human verifier decides</text>
+<text x="554" y="484" font-size="12" font-weight="400" fill="#334155">Sees findings, bounds and sources.</text>
+<text x="554" y="498" font-size="12" font-weight="400" fill="#334155">Overrides need a reason and are audited.</text>
+<text x="554" y="512" font-size="12" font-weight="400" fill="#334155">The AI never approves or issues.</text>
+<rect x="270" y="567" width="520" height="76" rx="8" ry="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="1.6"/>
+<text x="284" y="590" font-size="15" font-weight="600" fill="#0f172a">7. Closed state machine + system of record (SQLite)</text>
+<text x="284" y="609" font-size="12" font-weight="400" fill="#334155">DRAFT, SUBMITTED, UNDER_REVIEW, VERIFIED, ISSUED; idempotent issuance.</text>
+<text x="284" y="626" font-size="12" font-weight="400" fill="#334155">Events are hash-chained (canonical JSON, SHA-256); only hashes reach the ledger.</text>
+<rect x="860" y="100" width="350" height="560" rx="8" ry="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="878" y="125" font-size="15" font-weight="600" fill="#0f172a">Ledger port (adapter chosen by configuration)</text>
+<rect x="880" y="145" width="310" height="52" rx="8" ry="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="894" y="167" font-size="15" font-weight="600" fill="#0f172a">Fake ledger</text>
+<text x="894" y="185" font-size="12" font-weight="400" fill="#334155">in-memory, for tests and offline demos</text>
+<rect x="880" y="212" width="310" height="132" rx="8" ry="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="894" y="234" font-size="15" font-weight="600" fill="#0f172a">Direct Hedera adapter (testnet)</text>
+<text x="894" y="254" font-size="12" font-weight="400" fill="#334155">HCS topic: audit event hashes</text>
+<text x="894" y="270" font-size="12" font-weight="400" fill="#334155">HTS token: mint on issue, burn on retire,</text>
+<text x="894" y="284" font-size="12" font-weight="400" fill="#334155">1 unit = 1 kg CO2e (3 decimals)</text>
+<text x="894" y="304" font-size="12" font-weight="400" fill="#334155">A crash-safe retry finds the earlier</text>
+<text x="894" y="318" font-size="12" font-weight="400" fill="#334155">transaction through its memo.</text>
+<rect x="880" y="359" width="310" height="132" rx="8" ry="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="894" y="381" font-size="15" font-weight="600" fill="#0f172a">Guardian adapter (3.7.1)</text>
+<text x="894" y="401" font-size="12" font-weight="400" fill="#334155">Audit policy published in Guardian: each</text>
+<text x="894" y="415" font-size="12" font-weight="400" fill="#334155">event hash is submitted as a signed</text>
+<text x="894" y="429" font-size="12" font-weight="400" fill="#334155">credential, stored on a Hedera topic and</text>
+<text x="894" y="443" font-size="12" font-weight="400" fill="#334155">read back. Tokens go through the direct</text>
+<text x="894" y="457" font-size="12" font-weight="400" fill="#334155">adapter.</text>
+<rect x="880" y="506" width="310" height="132" rx="8" ry="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.6"/>
+<text x="894" y="528" font-size="15" font-weight="600" fill="#0f172a">Hedera testnet + mirror node</text>
+<text x="894" y="548" font-size="12" font-weight="400" fill="#334155">Public record on HashScan. An independent</text>
+<text x="894" y="562" font-size="12" font-weight="400" fill="#334155">verifier reads the topic back and compares</text>
+<text x="894" y="576" font-size="12" font-weight="400" fill="#334155">it with the local hash chain; any gap or</text>
+<text x="894" y="590" font-size="12" font-weight="400" fill="#334155">foreign message is reported.</text>
+<rect x="30" y="560" width="190" height="100" rx="8" ry="8" fill="#faf5ff" stroke="#7e22ce" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="44" y="583" font-size="15" font-weight="600" fill="#0f172a">Public data</text>
+<text x="44" y="602" font-size="12" font-weight="400" fill="#334155">Berkeley offsets database</text>
+<text x="44" y="618" font-size="12" font-weight="400" fill="#334155">(CC BY 4.0), WorldCover,</text>
+<text x="44" y="634" font-size="12" font-weight="400" fill="#334155">Open-Meteo. Verra: manual link.</text>
+<text x="30" y="700" font-size="13" font-weight="600" fill="#0f172a">What goes on the ledger: event hashes, ids and token amounts. Evidence documents and personal data stay off-chain.</text>
+<text x="30" y="724" font-size="12" font-weight="400" fill="#334155">Why it can be trusted: arithmetic is deterministic and reproducible; the AI is optional and cannot write; a human decides; the audit chain is checked against the public record.</text>
+<text x="30" y="746" font-size="12" font-weight="400" fill="#334155">What it does not claim: it does not stop fraud that happens before the evidence reaches the system; testnet tokens are not real credits.</text>
+<line x1="200" y1="170" x2="241.0" y2="170.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="250,170 241.0,174.5 241.0,165.5" fill="#475569"/>
+<line x1="200" y1="225" x2="241.0" y2="225.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="250,225 241.0,229.5 241.0,220.5" fill="#475569"/>
+<line x1="200" y1="280" x2="241.0" y2="280.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="250,280 241.0,284.5 241.0,275.5" fill="#475569"/>
+<line x1="200" y1="335" x2="241.0" y2="335.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="250,335 241.0,339.5 241.0,330.5" fill="#475569"/>
+<line x1="510" y1="176" x2="531.0" y2="176.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="540,176 531.0,180.5 531.0,171.5" fill="#475569"/>
+<line x1="665" y1="207" x2="665.0" y2="221.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="665,230 660.5,221.0 669.5,221.0" fill="#475569"/>
+<line x1="540" y1="265" x2="519.0" y2="265.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="510,265 519.0,260.5 519.0,269.5" fill="#475569"/>
+<line x1="390" y1="300" x2="390.0" y2="316.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="390,325 385.5,316.0 394.5,316.0" fill="#475569"/>
+<line x1="665" y1="300" x2="665.0" y2="316.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="665,325 660.5,316.0 669.5,316.0" fill="#475569"/>
+<line x1="390" y1="417" x2="390.0" y2="433.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="390,442 385.5,433.0 394.5,433.0" fill="#475569"/>
+<line x1="530" y1="417" x2="591.5" y2="439.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="600,442 590.0,443.2 593.0,434.7" fill="#475569"/>
+<line x1="510" y1="492" x2="531.0" y2="492.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="540,492 531.0,496.5 531.0,487.5" fill="#475569"/>
+<line x1="665" y1="542" x2="665.0" y2="558.0" stroke="#475569" stroke-width="1.8"/>
+<polygon points="665,567 660.5,558.0 669.5,558.0" fill="#475569"/>
+<line x1="790" y1="605" x2="851.0" y2="605.0" stroke="#0f766e" stroke-width="1.8"/>
+<polygon points="860,605 851.0,609.5 851.0,600.5" fill="#0f766e"/>
+<line x1="220" y1="610" x2="261.0" y2="610.0" stroke="#475569" stroke-width="1.8" stroke-dasharray="4 3"/>
+<polygon points="270,610 261.0,614.5 261.0,605.5" fill="#475569"/>
+<line x1="1035" y1="344" x2="1035.0" y2="350.0" stroke="#0f766e" stroke-width="1.8"/>
+<polygon points="1035,359 1030.5,350.0 1039.5,350.0" fill="#0f766e"/>
+<line x1="1035" y1="491" x2="1035.0" y2="497.0" stroke="#0f766e" stroke-width="1.8"/>
+<polygon points="1035,506 1030.5,497.0 1039.5,497.0" fill="#0f766e"/>
+</svg>

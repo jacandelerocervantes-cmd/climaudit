@@ -1,0 +1,1 @@
+Every step is a hash-chained audit event published on a Hedera topic. This is the check made at the end of the run: it recomputed every hash and compared the chain with the public ledger, and they matched. Anyone can read these messages on HashScan without trusting our software.

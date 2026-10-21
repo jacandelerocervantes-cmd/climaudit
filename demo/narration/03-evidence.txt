@@ -1,0 +1,1 @@
+I enter as the verifier and open a batch under review. Each value of the evidence shows the quote it came from. The findings come from rules, not from the AI. This one sits exactly at a threshold, so the verifier accepted it with a written reason, and that reason is part of the audit trail.

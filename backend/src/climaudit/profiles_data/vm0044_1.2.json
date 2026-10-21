@@ -1,0 +1,312 @@
+{
+  "profile_id": "VM0044@1.2",
+  "methodology_id": "VM0044",
+  "version": "1.2",
+  "horizon_years": 100,
+  "label": "Verra VM0044 v1.2 - Biochar utilization in soil and non-soil applications",
+  "source": {
+    "document": "VM44_v1.2_clean.pdf (verra.org)",
+    "retrieved": "2026-10-16",
+    "note": "Values read from the primary document; page numbers are the printed PDF page numbers."
+  },
+  "permanence": {
+    "mode": "temperature_table",
+    "table": [
+      {
+        "label": "high_gt_600",
+        "gt": "600",
+        "value": "0.89",
+        "page": 22,
+        "verified": true
+      },
+      {
+        "label": "medium_450_600",
+        "gt": "450",
+        "le": "600",
+        "value": "0.80",
+        "page": 22,
+        "verified": true
+      },
+      {
+        "label": "low_350_450",
+        "ge": "350",
+        "le": "450",
+        "value": "0.65",
+        "page": 22,
+        "verified": true
+      }
+    ],
+    "boundary_note": "Table 3 lists '> 600', '450 - 600' and '350 - 450'. The shared boundary 450 is assigned to the lower (more conservative) class by this profile; this assignment is ours.",
+    "unknown_temperature_default": {
+      "value": "0.56",
+      "page": 25,
+      "verified": true,
+      "note": "Used when pyrolysis temperature is not measured, recorded and reported (footnote 21 to Eq. 6)."
+    }
+  },
+  "limits": [
+    {
+      "field": "h_corg_molar",
+      "operator": "le",
+      "value": "0.7",
+      "applies_to": "soil",
+      "page": 13,
+      "verified": true,
+      "ambiguity": "Applicability condition 10(b) says 'less than or equal to 0.7'; the H:Corg parameter table (p.39-40) says 'less than 0.7'. This profile uses 'le'."
+    }
+  ],
+  "defaults": {
+    "organic_carbon_fraction_low_tech": {
+      "page": 26,
+      "verified": true,
+      "values": {
+        "animal_manure": {
+          "pyrolysis": "0.38",
+          "gasification": "0.09"
+        },
+        "wood": {
+          "pyrolysis": "0.77",
+          "gasification": "0.52"
+        },
+        "herbaceous": {
+          "pyrolysis": "0.65",
+          "gasification": "0.28"
+        },
+        "rice_husks_straw": {
+          "pyrolysis": "0.49",
+          "gasification": "0.13"
+        },
+        "nut_shells": {
+          "pyrolysis": "0.74",
+          "gasification": "0.40"
+        },
+        "biosolids_paper_sludge": {
+          "pyrolysis": "0.35",
+          "gasification": "0.07"
+        }
+      },
+      "mixed_feedstock_rule": "most_conservative"
+    },
+    "ch4_factor_unlisted_kiln_t_per_t": {
+      "value": "0.049",
+      "page": 27,
+      "verified": true
+    },
+    "e_ap_application_tco2e": {
+      "value": "0",
+      "page": 29,
+      "verified": true,
+      "note": "Fossil fuel use and fertilizer mixing at application are considered negligible."
+    },
+    "pe_conversion_high_tech_tco2e": {
+      "value": "0",
+      "page": 24,
+      "verified": true,
+      "note": "Net conversion emissions are de minimis for high-technology facilities."
+    }
+  },
+  "rules": {
+    "transport_threshold_km": {
+      "value": "200",
+      "comparison": "greater_or_equal",
+      "page": 30,
+      "verified": true,
+      "note": "VM0044 says 'more than 200 km' in one place and 'less than 200 km' is zero in another; exactly 200 km is undefined in the text, so this profile counts it (the conservative side)."
+    },
+    "additive_max_pct": {
+      "value": "10",
+      "page": 12,
+      "verified": true
+    },
+    "non_soil_min_carbon_pct": {
+      "value": "50",
+      "page": 8,
+      "verified": true
+    },
+    "high_tech_min_heat_use_pct": {
+      "value": "70",
+      "page": 7,
+      "verified": true
+    },
+    "residue_removal_max_pct_without_documentation": {
+      "value": "50",
+      "page": 10,
+      "verified": true
+    },
+    "hcfa_max_pct_of_throughput": {
+      "value": "5",
+      "page": 12,
+      "verified": true
+    },
+    "max_years_production_to_application": {
+      "value": "1",
+      "page": 13,
+      "verified": true,
+      "note": "Condition 9: used within one year of its production; compared as a calendar year."
+    },
+    "h3_resolutions": {
+      "value": "9,10",
+      "verified": false,
+      "note": "Our parameter: allowed H3 resolutions of the parcel footprint."
+    },
+    "max_cells_per_batch": {
+      "value": "2000",
+      "verified": false,
+      "note": "Our parameter."
+    }
+  },
+  "tools": {
+    "TOOL05": {
+      "version": "03.0",
+      "default_ef_t_per_mwh": {
+        "project_or_leakage": {
+          "value": "1.3",
+          "page": 7,
+          "verified": true
+        },
+        "baseline_low_hydro": {
+          "value": "0.4",
+          "page": 7,
+          "verified": true
+        },
+        "baseline_other": {
+          "value": "0.25",
+          "page": 7,
+          "verified": true
+        }
+      },
+      "tdl_fraction": {
+        "project_or_leakage": {
+          "value": "0.20",
+          "page": 15,
+          "verified": true
+        },
+        "baseline": {
+          "value": "0.03",
+          "page": 15,
+          "verified": true
+        }
+      },
+      "captive_capacity_tco2_per_mw_year": {
+        "value": "11400",
+        "page": 13,
+        "verified": true
+      }
+    },
+    "TOOL12": {
+      "version": "01.1.0",
+      "ef_g_per_t_km": {
+        "light": {
+          "value": "245",
+          "page": 7,
+          "verified": true
+        },
+        "heavy": {
+          "value": "129",
+          "page": 7,
+          "verified": true
+        }
+      },
+      "divisor": {
+        "value": "1000000",
+        "page": 6,
+        "verified": true,
+        "note": "Eq. 1 is printed with the factor 10^-6 (checked on the page image of TOOL12 p. 6 on 2026-10-17, decision ledger O-6), so the divisor is 10^6."
+      }
+    }
+  },
+  "uncertainty": {
+    "modeled_relative_uncertainty": {
+      "value": "0.10",
+      "verified": false,
+      "note": "Demo parameter of this project, not a VM0044 rule and not statistically validated. VM0044 v1.2 has no uncertainty requirement."
+    }
+  },
+  "tolerances": {
+    "mass_balance_pct": {
+      "value": "2",
+      "verified": false,
+      "note": "Our parameter: allowed relative gap between production log, laboratory mass and freight records."
+    },
+    "uncertainty_width_max_pct": {
+      "value": "50",
+      "verified": false,
+      "note": "Our parameter: flag when (high - low) / central exceeds this percentage."
+    }
+  },
+  "plausibility": {
+    "organic_carbon_fraction": {
+      "min": "0.05",
+      "max": "0.95",
+      "verified": false
+    },
+    "h_corg_molar": {
+      "min": "0",
+      "max": "2",
+      "verified": false
+    },
+    "pyrolysis_temp_c": {
+      "min": "200",
+      "max": "1200",
+      "verified": false
+    },
+    "moisture_pct": {
+      "min": "0",
+      "max": "400",
+      "verified": false
+    },
+    "dry_mass_biochar_t": {
+      "min": "0",
+      "max": "1000000",
+      "verified": false
+    },
+    "wet_mass_biochar_t": {
+      "min": "0",
+      "max": "2000000",
+      "verified": false
+    },
+    "facility_total_dry_mass_t": {
+      "min": "0",
+      "max": "10000000",
+      "verified": false
+    },
+    "claimed_kg_co2e": {
+      "min": "0",
+      "max": "10000000000",
+      "verified": false
+    },
+    "gwp_ch4": {
+      "min": "1",
+      "max": "100",
+      "verified": false
+    },
+    "ch4_factor_t_per_t": {
+      "min": "0",
+      "max": "1",
+      "verified": false
+    },
+    "emission_term_tco2e": {
+      "min": "0",
+      "max": "100000000",
+      "verified": false
+    },
+    "transport_distance_km_return": {
+      "min": "0",
+      "max": "50000",
+      "verified": false
+    },
+    "transport_freight_t": {
+      "min": "0",
+      "max": "10000000",
+      "verified": false
+    }
+  },
+  "benford": {
+    "chi2_critical_8dof": {
+      "alpha_0.05": "15.51",
+      "alpha_0.01": "20.09"
+    },
+    "min_series_length": 50,
+    "min_orders_of_magnitude": 2
+  }
+}

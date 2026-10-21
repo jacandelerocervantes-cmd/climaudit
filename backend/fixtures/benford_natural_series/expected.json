@@ -1,0 +1,10 @@
+{
+  "case": "benford_natural_series",
+  "findings_exclude": [
+    "BENFORD_ANOMALY"
+  ],
+  "findings_include": [],
+  "kg_central": 261067,
+  "recommendation": "human_review",
+  "status": "complete"
+}

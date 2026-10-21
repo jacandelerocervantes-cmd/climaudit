@@ -1,0 +1,11 @@
+{
+  "case": "non_soil_low_tech",
+  "findings_exclude": [],
+  "findings_include": [
+    "NON_SOIL_FROM_LOW_TECH",
+    "CARBON_FRACTION_BELOW_50_NON_SOIL"
+  ],
+  "kg_central": 123867,
+  "recommendation": "reject",
+  "status": "complete"
+}

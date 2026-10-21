@@ -1,0 +1,10 @@
+{
+  "case": "benford_fabricated_series",
+  "findings_exclude": [],
+  "findings_include": [
+    "BENFORD_ANOMALY"
+  ],
+  "kg_central": 261067,
+  "recommendation": "human_review",
+  "status": "complete"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "climaudit-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ClimAudit web app (Next.js App Router, TypeScript, Tailwind)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "types": "openapi-typescript openapi/climaudit.openapi.json -o src/lib/api-types.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "i18n": "node scripts/i18n.mjs check",
+    "i18n:extract": "node scripts/i18n.mjs extract",
+    "contrast": "node scripts/check-contrast.mjs",
+    "check": "npm run typecheck && npm run lint && npm run i18n && npm run contrast && npm run test"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "axe-core": "^4.14.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.8",
+    "jsdom": "29.1.1",
+    "openapi-typescript": "7.13.0",
+    "postcss": "8.5.28",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3"
+  }
+}

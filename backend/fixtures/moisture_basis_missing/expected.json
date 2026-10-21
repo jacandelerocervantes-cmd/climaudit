@@ -1,0 +1,10 @@
+{
+  "case": "moisture_basis_missing",
+  "findings_exclude": [],
+  "findings_include": [
+    "MOISTURE_BASIS_UNSPECIFIED"
+  ],
+  "kg_central": 261067,
+  "recommendation": "human_review",
+  "status": "complete"
+}

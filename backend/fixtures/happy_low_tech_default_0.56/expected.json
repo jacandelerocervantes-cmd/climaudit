@@ -1,0 +1,10 @@
+{
+  "case": "happy_low_tech_default_0.56",
+  "findings_exclude": [
+    "H_CORG_ABOVE_LIMIT"
+  ],
+  "findings_include": [],
+  "kg_central": 20907,
+  "recommendation": "human_review",
+  "status": "complete"
+}

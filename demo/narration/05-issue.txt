@@ -1,0 +1,1 @@
+Now a verified batch. The registry issued its credits as a token on Hedera, one unit per kilogram. Here is the mint transaction, a public record anyone can open.

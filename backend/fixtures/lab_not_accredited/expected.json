@@ -1,0 +1,10 @@
+{
+  "case": "lab_not_accredited",
+  "findings_exclude": [],
+  "findings_include": [
+    "EVIDENCE_MISSING"
+  ],
+  "kg_central": null,
+  "recommendation": "return",
+  "status": "incomplete"
+}

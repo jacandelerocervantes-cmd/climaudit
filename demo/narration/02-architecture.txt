@@ -1,0 +1,1 @@
+A project submits a batch. A sanitizer strips hidden text from documents. An optional AI module can only propose values, each with a verbatim quote that must really be in the document, and a person confirms it. Rules run, then a deterministic calculation of Verra VM0044. A human verifier decides. The AI never approves or issues. Only hashes go to Hedera.

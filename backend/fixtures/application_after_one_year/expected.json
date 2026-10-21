@@ -1,0 +1,10 @@
+{
+  "case": "application_after_one_year",
+  "findings_exclude": [],
+  "findings_include": [
+    "APPLICATION_TOO_LATE"
+  ],
+  "kg_central": 261067,
+  "recommendation": "return",
+  "status": "complete"
+}
